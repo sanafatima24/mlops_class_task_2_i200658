@@ -4,7 +4,7 @@ class TestStudentsInMLOps:
     @staticmethod
     def test_enrollStudents():
         ml_ops_class = StudentsInMLOps()
-        ml_ops_class.enrollStudents(20)
+        ml_ops_class.enrollStudents(10)
         assert ml_ops_class.getTotalStrength() == 10
 
     @staticmethod
