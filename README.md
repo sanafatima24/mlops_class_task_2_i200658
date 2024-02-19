@@ -1,49 +1,26 @@
-# MLOps Class Task
+# StudentsInMLOps
+## Introduction
 
-This repository contains code for the MLOps class task. It includes a Python class `StudentsInMLOps` with methods for managing students in an MLOps class, along with test cases to ensure its correctness.
+## Contents
 
-## Installation
+- [StudentsInMLOps](#studentsinmlops)
+  - [Introduction](#introduction)
+  - [Files](#files)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-To set up the project, follow these steps:
+## Files
 
-1. Clone the repository:
-
-    ```bash
-    git clone <repository_url>
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd mlops_class_task
-    ```
-
-3. Install the dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
+- main.py: Contains the StudentsInMLOps class with methods for enrolling students, dropping students, getting total strength, and getting class name.
+- test.py: Includes automated test cases for validating the functionality of the StudentsInMLOps class.
+- Makefile: Defines commands for testing (pytest test.py) and installing dependencies (pip3 install -r requirements.txt).
+- .github/workflows/python_tests.yml: GitHub Actions workflow that executes on every push event, setting up the environment, installing dependencies, and running tests.
 
 ## Usage
 
-You can use the `StudentsInMLOps` class in your Python code by importing it from the `main` module. Here's an example:
-
-```python
-from main import StudentsInMLOps
-
-# Create an instance of the class
-ml_ops_class = StudentsInMLOps()
-
-# Enroll students
-ml_ops_class.enrollStudents(20)
-
-# Drop students
-ml_ops_class.dropStudents(5)
-
-# Get total strength
-total_strength = ml_ops_class.getTotalStrength()
-print("Total strength:", total_strength)
-
-# Get class name
-class_name = ml_ops_class.getClassName()
-print("Class name:", class_name)
+1. *Clone the Repository*:
+2. *Navigate to the Repository*:
+3. *Install Dependencies*
+4. *Run Tests*
+5. **Use the StudentsInMLOps Class**
